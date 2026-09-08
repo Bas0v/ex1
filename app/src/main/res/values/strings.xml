@@ -1,0 +1,5 @@
+<resources>
+    <string name="app_name">ex1</string>
+    <string name="intro">Your name:</string>
+    <string name="header">This activity demonstrates the use of relative layout with two internal linear layouts</string>
+</resources>
