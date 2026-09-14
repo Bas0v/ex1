@@ -75,8 +75,8 @@
     </LinearLayout>
 
     <RadioGroup
-        android:layout_width="170dp"
-        android:layout_height="124dp"
+        android:layout_width="168dp"
+        android:layout_height="111dp"
         android:layout_marginStart="388dp"
         android:layout_marginTop="208dp"
         app:layout_constraintStart_toStartOf="parent"
