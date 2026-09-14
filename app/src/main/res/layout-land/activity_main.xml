@@ -8,10 +8,10 @@
     tools:context=".MainActivity">
 
     <LinearLayout
-        android:layout_width="407dp"
-        android:layout_height="84dp"
+        android:layout_width="554dp"
+        android:layout_height="81dp"
         android:layout_marginStart="4dp"
-        android:layout_marginTop="112dp"
+        android:layout_marginTop="80dp"
         android:orientation="horizontal"
         app:layout_constraintStart_toStartOf="parent"
         app:layout_constraintTop_toTopOf="parent">
@@ -19,14 +19,14 @@
         <TextView
             android:id="@+id/textView"
             android:layout_width="wrap_content"
-            android:layout_height="71dp"
+            android:layout_height="68dp"
             android:text="@string/intro"
-            android:textSize="32sp"></TextView>
+            android:textSize="19sp"></TextView>
 
         <EditText
             android:id="@+id/editTextText"
-            android:layout_width="118dp"
-            android:layout_height="57dp"
+            android:layout_width="274dp"
+            android:layout_height="wrap_content"
             android:layout_weight="1"
             android:ems="10"
             android:inputType="text"
@@ -34,10 +34,10 @@
 
         <Button
             android:id="@+id/button"
-            android:layout_width="114dp"
+            android:layout_width="2dp"
             android:layout_height="wrap_content"
             android:layout_weight="1"
-            android:backgroundTint="#00EAFF"
+            android:backgroundTint="#B4BBBC"
             android:text="Press me!"
             android:textColor="@color/black" />
     </LinearLayout>
@@ -45,7 +45,8 @@
     <LinearLayout
         android:layout_width="170dp"
         android:layout_height="156dp"
-        android:layout_marginTop="208dp"
+        android:layout_marginStart="4dp"
+        android:layout_marginTop="188dp"
         android:orientation="vertical"
         app:layout_constraintStart_toStartOf="parent"
         app:layout_constraintTop_toTopOf="parent">
@@ -55,42 +56,29 @@
             android:layout_width="match_parent"
             android:layout_height="wrap_content"
             android:text="option1"
-            android:textSize="30sp" />
+            android:textSize="25sp" />
 
         <CheckBox
             android:id="@+id/checkBox2"
             android:layout_width="match_parent"
             android:layout_height="wrap_content"
             android:text="option2"
-            android:textSize="30sp" />
+            android:textSize="25sp" />
 
         <CheckBox
             android:id="@+id/checkBox3"
             android:layout_width="match_parent"
             android:layout_height="wrap_content"
             android:text="option3"
-            android:textSize="30sp" />
+            android:textSize="25sp" />
 
     </LinearLayout>
 
-    <View
-        android:id="@+id/divider"
-        android:layout_width="229dp"
-        android:layout_height="14dp"
-        android:layout_marginStart="1dp"
-        android:layout_marginTop="380dp"
-        android:background="?android:attr/listDivider"
-        android:backgroundTint="#000000"
-        app:layout_constraintEnd_toEndOf="parent"
-        app:layout_constraintHorizontal_bias="0.0"
-        app:layout_constraintStart_toStartOf="parent"
-        app:layout_constraintTop_toTopOf="parent" />
-
     <RadioGroup
-        android:layout_width="196dp"
-        android:layout_height="153dp"
-        android:layout_marginStart="4dp"
-        android:layout_marginTop="408dp"
+        android:layout_width="170dp"
+        android:layout_height="124dp"
+        android:layout_marginStart="388dp"
+        android:layout_marginTop="208dp"
         app:layout_constraintStart_toStartOf="parent"
         app:layout_constraintTop_toTopOf="parent">
 
@@ -99,23 +87,38 @@
             android:layout_width="match_parent"
             android:layout_height="wrap_content"
             android:text="alternative1"
-            android:textSize="30sp" />
+            android:textSize="25sp" />
 
         <RadioButton
             android:id="@+id/radioButton2"
             android:layout_width="match_parent"
             android:layout_height="wrap_content"
             android:text="alternative2"
-            android:textSize="30sp" />
+            android:textSize="25sp" />
     </RadioGroup>
 
     <TextView
         android:id="@+id/textView3"
-        android:layout_width="399dp"
-        android:layout_height="102dp"
+        android:layout_width="555dp"
+        android:layout_height="41dp"
+        android:layout_marginStart="4dp"
+        android:layout_marginTop="39dp"
         android:text="@string/header"
-        android:textSize="24sp"
-        tools:layout_editor_absoluteX="10dp"
-        tools:layout_editor_absoluteY="4dp" />
+        android:textSize="15sp"
+        app:layout_constraintStart_toStartOf="parent"
+        app:layout_constraintTop_toTopOf="parent" />
+
+    <View
+        android:id="@+id/divider2"
+        android:layout_width="9dp"
+        android:layout_height="124dp"
+        android:layout_marginStart="348dp"
+        android:layout_marginTop="171dp"
+        android:background="?android:attr/listDivider"
+        android:scrollbarSize="4dp"
+        app:layout_constraintBottom_toBottomOf="parent"
+        app:layout_constraintStart_toStartOf="parent"
+        app:layout_constraintTop_toTopOf="parent"
+        app:layout_constraintVertical_bias="0.151" />
 
 </androidx.constraintlayout.widget.ConstraintLayout>
